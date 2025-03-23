@@ -19,4 +19,5 @@ function createDebouncedFetch() {
   };
 }
 
-module.exports = createDebouncedFetch();
+const debouncedFetch = createDebouncedFetch();
+export default debouncedFetch;
