@@ -4,6 +4,7 @@
   "description": "Easily debounce your api fetch",
   "main": "index.js",
   "types": "types/debounced-fetch.d.ts",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
